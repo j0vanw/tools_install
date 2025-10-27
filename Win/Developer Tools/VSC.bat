@@ -14,5 +14,5 @@ winget list --id Microsoft.VisualStudioCode | find "Microsoft.VisualStudioCode" 
 )
 
 echo.
-echo VSC Installed Successfully.
+echo VSC Installed Successfully!
 if not defined FROM_MASTER pause

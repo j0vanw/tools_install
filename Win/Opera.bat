@@ -14,5 +14,5 @@ winget list --id Opera.Opera | find "Opera.Opera" >nul &&(
 )
 
 echo.
-echo Opera Installed Successfully
+echo Opera Installed Successfully!
 if not defined FROM_MASTER pause
