@@ -10,7 +10,7 @@ winget list --id Oracle.JDK.24 | find "Oracle.JDK.24" >nul &&(
     echo ✔ Java is already installed in your system.
 ) || (
     echo ➤ Installing Java...
-    winget install --id Oracle.JDK.24 -e -source winget
+    winget install --id Oracle.JDK.24 -e --source winget
 )
 
 echo.

@@ -10,7 +10,7 @@ winget list --id Kitware.CMake | find "Kitware.CMake" >nul &&(
     echo ✔ CMake is already installed in your system.
 ) || (
     echo ➤ Installing CMake...
-    winget install --id Kitware.CMake -e -source winget
+    winget install --id Kitware.CMake -e --source winget
 )
 
 echo.

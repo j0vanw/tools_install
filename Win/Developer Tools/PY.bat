@@ -10,7 +10,7 @@ winget list --id Python.Python.3.14 | find "Python.Python.3.14" >nul &&(
     echo ✔ Python is already installed in your system.
 ) || (
     echo ➤ Installing Python...
-    winget install --id Python.Python.3.14 -e -source winget
+    winget install --id Python.Python.3.14 -e --source winget
 )
 
 echo.
